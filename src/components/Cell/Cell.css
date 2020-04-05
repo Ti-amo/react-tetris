@@ -1,7 +1,7 @@
 .cell {
     width: 20px;
     height: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(245, 197, 197);
     display: inline-block;
     vertical-align: middle;
     position: relative;
@@ -14,13 +14,14 @@
     position: absolute;
     left: 2px;
     top: 2px;
-    border: 1px solid #fff;
+    /* border: 1px solid rgb(245, 165, 165); */
+    border: none;
 }
 
 .fill {
-    background: blue;
+    background: rgb(255, 10, 10);
 }
 
 .active {
-    background: cornflowerblue;
+    background: rgb(245, 108, 108);
 }

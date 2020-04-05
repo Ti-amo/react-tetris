@@ -1,19 +1,28 @@
 .aside {
     display: inline-block;
     vertical-align: top;
+    margin-left: 1rem;
 }
 
 .score {
-    border: 1px solid #000;
-    margin: 2px;
+    justify-content: center;
+    border: 1px solid rgb(245, 197, 197);
     height: 30px;
     padding: 3px 6px;
+    margin: 1rem 0;
     width: 74px;
     display: flex;
     align-items: center;
 }
 
-.status{
-    font-size: 14px;
+.score p {
+    color: rgb(207, 67, 67);
+    font-size: 2rem;
+    font-weight: 600;    
+}
 
+.status{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(207, 67, 67);
 }

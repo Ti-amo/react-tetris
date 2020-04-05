@@ -6,9 +6,9 @@ const ResultArea = (props) => {
     const { gameOver, score, nextFigure, fieldWidth } = props
     return (
         <div className="aside">
-            <div className="status">{gameOver ? 'Game over' : ''}</div>
-            <div className="score">{score}</div>
-            <Next figure={nextFigure} shift={fieldWidth / 3 - 2} />
+            <div className="status">{gameOver ? 'Game over' : 'Your Score'}</div>
+            <div className="score"><p>{score}</p></div>
+            <Next figure={nextFigure} shift={fieldWidth / 3 + 1} />
         </div>
     )
 }

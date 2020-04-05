@@ -3,12 +3,6 @@ import Cell from '../Cell/Cell'
 import './Next.css'
 
 class Next extends React.Component{
-    
-    constructor(props){
-      super(props);
-
-      } 
-    
     render(){
     const { figure } = this.props;
     return <div className="next">
