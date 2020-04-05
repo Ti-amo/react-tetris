@@ -5,13 +5,11 @@
 }
 
 .score {
-    
-}
-
-.status{
-
-}
-
-.nextFigure{
-    
+    border: 1px solid #000;
+    margin: 2px;
+    height: 30px;
+    padding: 3px 6px;
+    width: 74px;
+    display: flex;
+    align-items: center;
 }

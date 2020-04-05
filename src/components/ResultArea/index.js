@@ -1,13 +1,14 @@
 import React from 'react'
+import Next from '../Next/Next'
 import './index.css'
 
 const ResultArea = (props) => {
-    const { gameOver, score, nextFigure} = props
+    const { gameOver, score, nextFigure, fieldWidth } = props
     return (
         <div className="aside">
             <div className="status">{gameOver ? 'Game over' : ''}</div>
             <div className="score">{score}</div>
-            <div className="nextFigure">Next Figure</div>
+            <Next figure={nextFigure} shift={fieldWidth / 3 - 2} />
         </div>
     )
 }
