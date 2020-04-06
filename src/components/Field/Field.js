@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Shapes from '../../shapes';
-import PlayArea from '../PlayArea'
-import ResultArea from '../ResultArea'
+import PlayArea from '../PlayArea/PlayArea'
+import ResultArea from '../ResultArea/ResultArea'
 import { moveLeft, moveRight, moveDown, rotateMove } from '../Action/Action'
 import ModalGameOver from '../ModalGameOver'
 import './Field.css'
